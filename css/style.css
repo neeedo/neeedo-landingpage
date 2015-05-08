@@ -1,0 +1,235 @@
+.container{
+	max-width: 960px;
+	width: 90%;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+body, html{
+	background: #718a94;
+}
+/** 
+	hell 718a94
+	dunkel 
+*/
+html{
+	overflow-y: scroll;
+}
+
+.thmb{
+	border-radius: 10px;
+}
+
+a{
+	font-size: 1.4em;
+}
+
+.panel{
+	border-radius: 10px;
+	width: 100%;
+	height: auto;
+	border: none;
+	padding: 15px;
+	margin: 20px 0;
+	box-shadow: 0 0 8px 2px rgba(0,0,0,0.1);
+	background: url(../img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img{
+	max-width: 100%;
+	width: 65%;
+	margin: 0 auto;
+}
+
+.modal img{
+	max-width: 100%;
+}
+
+#architekturPoster a, #nextGenPoster a, #spherePoster a{
+	display: block;
+	margin: 0 auto;	
+}
+
+#architekturPoster img, #nextGenPoster img, #spherePoster img{
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+#topLogo{
+	max-width: 400px;
+	width: 100%;
+}
+
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+
+#githubLogo{
+	max-width: 75px;
+}
+
+.gitLogo span{
+	color: #CDEFEF;
+	display: block;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+	font-size: 1.2em;
+	margin-top: 20px;
+}
+
+.gitLinks a{
+	display: block;
+	color: #1E2422;
+	width: 66%;
+	margin: 10px auto;
+	padding: 15px;
+	background: #CDEFEF;
+	border-radius: 7px;
+	text-align: center;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.gitLinks{
+	text-align: center;
+}
+	
+#slogan span{
+	display: block;
+	padding: 10px 0;
+	margin: 0 auto;
+	color: #CDEFEF;
+	font-size: 1.3em;
+	text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+/* Float Shadow */
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+#webApp{
+	height: 120px;
+}
+
+#webApp a{
+	color: #1E2422;
+	margin: 0 auto;
+	padding: 15px;
+	background: #CDEFEF;
+	border-radius: 7px;
+	text-align: center;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+#webApp div{
+	text-align: center;
+}
+
+::-moz-selection {
+	background: #CDEFEF;
+	text-shadow: none;
+}
+
+::selection {
+	background: #CDEFEF;
+	text-shadow: none;
+}
+
+@media only screen and (min-width: 570px){
+	#webApp{
+		height: 100px;
+	}
+	a{
+		font-size: 1.2em;
+	}
+	#slogan span{
+		font-size: 1.7em;
+		padding: 20px 0;
+	}
+	
+	#webApp a{
+		margin: 5px auto;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	#slogan span{
+		font-size: 2em;
+		padding: 40px 0;
+	}
+	#webApp a{
+		margin: 10px auto;
+	}
+}
